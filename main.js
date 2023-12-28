@@ -62,11 +62,7 @@ function validateCred(array) {
             }
         }
     }
-    if(sum % 10 == 0){
-        return true;
-    } else {
-        return false;
-    }
+    return(sum % 10 == 0);
 };
 
 function findInvalidCards(nestedArray) {
